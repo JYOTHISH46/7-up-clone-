@@ -1,0 +1,223 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+nav {
+ 
+  background-color: rgb(0, 210, 198);
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 108px;
+  height: 70px;
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+.navbar {
+ 
+  margin-left: 600px;
+  color: white;
+  word-spacing: 18px;
+  font: 400 20px / 1.2 "Nobel", Helvetica, Arial, sans-serif;
+  padding: 30px;
+}
+.social img {
+  width: 30px;
+}
+.image1 {
+  width: 100%;
+  height: 100vh;
+  padding-top: 1.2px;
+}
+.banner-card {
+  position: relative;
+}
+.banner-card img {
+  width: 100%;
+  height: auto;
+}
+.text1 {
+  position: absolute;
+  top: 175px;
+  color: white;
+  font-size: 30px;
+  font-family: "panton Rust";
+  padding-left: 80px;
+  padding-top: 50px;
+  line-height: 70px;
+  text-align: center;
+}
+#button1 {
+  width: 170px;
+  display: inline-block;
+  font-size: 15px;
+  background-color: rgb(247, 179, 8, 0.2);
+  border-radius: 200px;
+  height: 45px;
+  border: 2px solid white;
+  color: white;
+}
+.image2 {
+  width: 100%;
+  height: 100vh;
+  padding-top: 1.2px;
+}
+.banner-card2 {
+  position: relative;
+}
+.banner-card2 img {
+  width: 100%;
+  height: auto;
+}
+.text2 {
+  align-items: center;
+  position: absolute;
+  top: 175px;
+  color: white;
+  font-size: 10px;
+  font-family: "sans-serif";
+  padding-left: 90px;
+  padding-top: 80px;
+  padding: 10px 0px 43px 0px;
+
+  background-color: rgba(10, 91, 43, 0.8);
+  left: 350px;
+  border-radius: 400px;
+  width: 45%;
+  height: 30%;
+  margin: auto;
+}
+#button2 {
+  width: 190px;
+
+  font-size: 15px;
+    background-color: rgba(10, 91, 43, 0.8);
+  border-radius: 200px;
+  height: 45px;
+  border: 2px solid white;
+  color: white;
+}
+.button-container1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 2px;
+  /* padding: 125px 0px 50px 70px; */
+
+}
+.recipies {
+  text-align: center;
+}
+.bake {
+  text-align: center;
+  font-size: 20px;
+
+  color: white;
+}
+.image3 {
+  width: 100%;
+  height: 100vh;
+  padding-top: 1.2px;
+}
+.banner-card3 {
+  position: relative;
+  background-image: url('./image3.webp');
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+}
+.banner-card3 img {
+  width: 100%;
+  height: 100vh;
+}
+.text3 {
+  align-items: center;
+  position: absolute;
+  top: 340px;
+  color: white;
+  font-size: 10px;
+  font-family: "panton Rust";
+ 
+  background-color: rgba(10, 91, 43, 0.8);
+  left: 350px;
+  border-radius: 300px;
+  width: 50%;
+ 
+  padding: 10px 0px 43px 0px;
+}
+#button3 {
+  width: 230px;
+
+  font-size: 19px;
+  background-color: rgb(247, 179, 8, 0.2);
+  border-radius: 30px;
+  height: 45px;
+  border: 2px solid white;
+  color: white;
+}
+.store {
+  font: 36px korolev;
+  margin: 20px 0px 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: white;
+}
+.find {
+  text-align: center;
+  font-size: 20px;
+
+  color: white;
+}
+.button-container2 {
+  display: flex;
+  justify-content: center;
+  margin-top:20px;
+}
+
+.recipies{
+    font-size: 35px;
+}
+ul{
+    list-style: none;
+    background-color: gray;
+}
+li{
+display: inline;
+word-spacing:1px;
+padding-left: 20px;
+left: 90px;
+
+}
+.footer{
+    background-color:#818182;
+   
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    font: 12px korolev;
+    
+}
+.box{
+  width: 100%;
+  height: 100px;
+  justify-content: center;
+  
+  
+}
+.navbar-container {
+  position: fixed;
+}
+
+#last-paragraph{
+  position: absolute;
+  top: 315%;
+  left: 30%;
+  
+  font-size: 12px;
+  color: black  
+
+}
